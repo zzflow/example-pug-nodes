@@ -1,0 +1,27 @@
+{
+  "name": "example-pug-nodes",
+  "version": "1.0.0",
+  "description": "exemplo",
+  "main": "www.js",
+  "dependencies": {
+	  
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzflow/example-pug-nodes.git"
+  },
+  "keywords": [
+    "javascript",
+    "pub"
+  ],
+  "author": "ZzFlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzflow/example-pug-nodes/issues"
+  },
+  "homepage": "https://github.com/zzflow/example-pug-nodes#readme"
+}
