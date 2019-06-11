@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 
+//Deixa pasta 'public' visivel nas rotas (desconsidere /public/)
+app.use(express.static('public'))
+
 app.use('views', 'views')
 app.use('view engine', 'pug')
 
