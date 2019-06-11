@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-//Deixa pasta 'public' visivel nas rotas (desconsidere /public/)
+//Deixa pasta 'public' visivel nas rotas (desconsidere /public/style.css e sim /style.css)
 app.use(express.static('public'))
 
 app.use('views', 'views')
